@@ -1,0 +1,1604 @@
+* {
+    margin: 0;
+    padding :0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box; 
+    
+
+}
+
+.header {
+    min-height: 80%;
+    width: 100%;
+}
+
+/* =================================================================================================== */
+.otp1 {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.otp2 {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+.otp2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    word-spacing: 4px;
+}
+
+.otp2 ul li a {
+        text-decoration: none;
+        color:#4A4A4A;
+        font-size: 15px;
+        transition: color 0.3s;
+}
+
+.otp2 ul li a:hover {
+    color: red;
+}
+
+
+
+/* ================================================================================================================== */
+.new a:hover {
+    color:chartreuse;
+}
+
+
+
+
+.nav1 {
+    display: flex;
+    padding-right:5%;
+    padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav1 img{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 134px;
+    height: 12vh;
+
+}
+
+.links {
+    flex:1;
+    
+    text-align:center;
+   
+ 
+    font-size: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    
+}
+
+.links ul li {
+    list-style: none;
+ 
+    position: relative;
+    display: inline-block ;
+    height: auto ;
+
+    
+    padding-bottom: 0;
+    overflow: visible ;
+   
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:20px;
+
+}
+.links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    color:#4A4A4A;
+    transition: color 0.2s;
+    word-spacing: 7px;
+
+
+}
+
+.links ul li a:hover {
+
+  color: gold;
+}
+
+
+
+ /* .active, .links ul li:hover {
+    
+    background-color: rgba(0, 149, 255,0.3);
+    border-radius:25% 25%;
+    color:rgb(244, 101, 0); 
+ }*/
+
+ 
+.under_menu1 {
+    display: none;
+}
+
+.links ul li:hover .under_menu1{
+    display:block;    
+    background-color: rgba(43, 226, 226,0.7);
+    position: absolute;
+    
+    
+    margin-left:-5px;
+    
+    
+    text-align: left;
+    
+  
+}
+
+
+.links ul li:hover .under_menu1 ul {
+    display: block;
+    margin: 5px;
+    
+    
+    
+}
+
+
+.links ul li:hover .under_menu1 ul li {
+    /* width:250px;  #000000 */
+    width:150px;
+    padding:10px;
+    border-bottom: 5px  solid underline #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: left;
+    
+}
+
+.links ul li:hover .under_menu1 ul li:last-child {
+    border-bottom:none;
+
+}
+
+.links ul li:hover .under_menu1 ul li a:hover{
+    color:rgb(255, 0, 0);
+    text-decoration: solid underline black 2px;
+}
+
+ /* 
+
+ ======================================================================================== */
+
+ .h1_ {
+    background-image: url(bg_1.png);
+    height: 80vh;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    margin-top:20px;
+    justify-content: center;
+    display: inline-block;
+    background-position:top;
+    background-size: cover;
+
+    font-size: 55px;
+    cursor: pointer;
+    justify-content:right ;
+    padding-bottom: 0;
+    
+ }
+
+.header .h1_ h1{
+    
+
+    text-align: left;
+    margin-top: 100px;
+    margin-left:20px;
+    font-family: 'Nunito Sans', sans-serif;
+   
+    /* margin-bottom: 120px; */
+    /* text-decoration: underline solid white; */
+  
+    
+}
+
+.header .h1_ a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    display: block;
+    margin-left:20px;
+    transition: color 0.2s,text-decoration 0.2s;
+    
+}
+
+.header .h1_ a:hover {
+
+    color:rgb(5, 228, 8);
+    text-decoration:underline solid rgb(5, 228, 8);
+}
+
+.nav1 .fa-solid {
+    display:none;
+}
+
+
+/* ==========================================intrO================================================= */
+
+.intro {
+    width:80%;
+
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+}
+
+.intro h1{
+    text-align: left;
+    font-size:55px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+
+}
+
+.intro p{
+
+    text-align: left;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-left: 13%;
+    padding-right: 1px;
+    
+
+}
+
+.imge {
+    float: right;
+    shape-outside: circle();
+    border-radius: 60%;
+    width:50%;
+    height:50%;
+}
+
+
+
+
+.result h1{
+    text-align: left;
+    font-size:55px;
+    color:rgb(63, 88, 85);
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.result p{
+
+    text-align: left;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 17%;
+    padding-bottom: 5%;
+}
+
+.boxx {
+    
+    margin-top:5%;
+    margin-left:14%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.inboxx {
+    flex-basis:31%;
+    background-color: rgb(100, 215, 146);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+
+.boxx h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.boxx p {
+    padding: 0%;
+    text-align: center;
+    margin: 0%;
+}
+
+.inboxx:hover {
+    box-shadow: 0 0 20px 0px rgba(196, 63, 14, 0.54);
+}
+
+.imageee {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imageee h1{
+    text-align: left;
+    font-size:55px;
+    font-weight: 600;
+    color:rgb(63, 88, 85);
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+
+
+.inboxxxx_1 {
+    display:inline-flex;
+    justify-content: space-between;
+    flex-basis: 32%;
+    border-radius: 10px 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 80px;
+}
+
+.inboxxxx_1 img {
+    width:300px
+}
+
+.layer {
+    background-color:transparent;
+    height:100%;
+    width:300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+
+.layer:hover {
+    background-color: rgba(100, 217, 85, 0.7);
+}
+
+.layer h3 {
+    width:100%;
+    font-weight: 500;
+    color:darkblue;
+    font-size: 26px;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%);
+    position:absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+
+    bottom:49%;
+    opacity: 1;
+
+
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 10px;
+    background-color: rgb(20, 219, 146);
+}
+
+
+
+.footer a{
+    margin-bottom: 40px;
+    margin-top:40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.footer a:hover {
+    color: rgb(251, 101, 1);
+    text-decoration: underline solid rgba(196, 63, 14, 0.54) 2px ;
+}
+
+.iccon .fa{
+    color:rgb(11, 141, 210);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.iccon .fa:hover {
+    color:red;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++Objective+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.obj {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(objective.png);
+    background-size: cover;
+    
+}
+
+.obj h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(13, 228, 17, 0.77),rgba(222, 246, 4, 0.75));
+
+}
+
+.obj h1:hover {
+    color:rgb(77, 208, 210);
+    background-image: linear-gradient(rgba(228, 160, 13, 0.77),rgba(194, 246, 4, 0.65));
+
+}
+
+.obj p{
+
+    text-align: left;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-left: 13%;
+    padding-right: 1px;
+    
+
+}
+
+.imge {
+    float: right;
+    shape-outside: circle();
+    border-radius: 60%;
+    width:50%;
+    height:50%;
+}
+
+.obj_p {
+
+    text-align: left;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.p1{
+    text-align: left;
+    font-size:20px;
+}
+.t_p {
+    font-size: 25px;
+}
+
+.obj_p  h4{
+    color:black;
+    transition: color 0.2s, text-decoration 0.2s;
+    cursor: pointer;
+}
+
+.obj_p h4:hover {
+    color:rgb(0, 98, 255);
+    text-decoration: underline solid rgba(232, 77, 0, 0.923) 3px;
+}
+
+.obj_p ol {
+    display: block;
+    list-style-type: decimal ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+
+}
+
+.obj_p ol li {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++Objective+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++About US+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.about_us {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(about_us.png);
+    background-size:cover;
+    
+}
+
+.about_us h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(13, 228, 17, 0.77),rgba(222, 246, 4, 0.75));
+
+}
+
+.about_us h1:hover {
+    color:rgb(240, 20, 5);
+    background-image: linear-gradient(rgba(13, 153, 228, 0.77),rgba(44, 246, 4, 0.65));
+
+}
+
+.about_usp {
+    width:80%;
+    margin:auto;
+    padding-top:80px;
+    padding-bottom:50px;
+
+}
+
+.ab_col {
+    flex-basis: 48%; /* coz we need 2 col */
+    padding: 30px 2px;
+}
+
+.ab_col img {
+    width: 100%;
+}
+
+.ttt {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.ttt:hover {
+    color: red;
+    text-decoration: underline solid 2px rgb(0, 63, 235);
+}
+
+.ab_col ol {
+    display: block;
+    list-style-type: decimal ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.ab_col ol li {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.ab_col h2 {
+    margin-left:5px;
+    padding:10px;
+    
+}
+
+.ab_col h2 p{
+    margin:10px;
+    padding:10px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++About US+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++Results+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.rests {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(results.jpg);
+    background-size: cover;
+    
+}
+
+.rests h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(13, 228, 163, 0.77),rgba(246, 238, 4, 0.75));
+
+}
+
+.rests h1:hover {
+    color:rgb(77, 208, 210);
+    background-image: linear-gradient(rgba(228, 63, 13, 0.77),rgba(246, 4, 125, 0.65));
+
+}
+
+.rests_1{
+
+    text-align: left;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.para_5{
+    text-align: left;
+    
+    font-size: 20px;
+    margin:15px;
+}
+
+
+.rests_1 h4{
+    color:black;
+    transition: color 0.2s, text-decoration 0.2s;
+    cursor: pointer;
+}
+
+.rests_1 h4:hover {
+    color:rgb(255, 149, 0);
+    text-decoration: underline solid rgba(0, 209, 232, 0.923) 3px;
+}
+
+.rests_1 ol {
+    display: block;
+    list-style-type: decimal ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+
+}
+
+.rests_1 ol li {
+    margin: 10px;
+    padding: 10px;
+}
+.rests_1 h2{
+    color:black;
+    margin: 10%;
+
+}
+
+.rests_1 h2:hover {
+    color:red;
+    transition: color 0.2s;
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++Result+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++F_R + F_P+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.F__R {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(food.png);
+    background-size: cover;
+    
+}
+
+.F__R h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(13, 228, 163, 0.77),rgba(246, 238, 4, 0.75));
+
+}
+
+.F__R h1:hover {
+    color:rgb(77, 208, 210);
+    background-image: linear-gradient(rgba(228, 63, 13, 0.77),rgba(246, 4, 125, 0.65));
+
+}
+
+.FFF p{
+    font-size: larger;
+    margin:10%;
+    text-align: center;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++F_R + F_P+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.F__P {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(f___r.jpg);
+    background-size: cover;
+    
+}
+
+.F__P h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(13, 228, 163, 0.77),rgba(246, 238, 4, 0.75));
+
+}
+
+.F__P h1:hover {
+    color:rgb(77, 208, 210);
+    background-image: linear-gradient(rgba(228, 63, 13, 0.77),rgba(246, 4, 125, 0.65));
+
+}
+
+.FFFF p{
+    font-size: larger;
+    margin:10%;
+    text-align: center;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food Sources+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Index_1 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: blue;
+    
+    
+
+}
+.Index_1 h1 {
+    font-weight: lighter;
+    border: solid 2px red;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.Index_1 h1:hover {
+    background-color: crimson;
+    color: rgb(251, 255, 0);
+}
+.Inn {
+    margin:5%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+
+.Index_1 ol {
+    margin-left:20px;
+    padding-left: 10%;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.Index_1 ol h3 {
+    font-size: 30px;
+    color: rgb(65, 65, 181);
+}
+
+
+.Index_1 ol h3:hover{
+    color:rgb(0, 140, 255);
+    text-decoration: solid underline 2px rgb(0, 0, 0);
+}
+.Inn img{
+
+
+    float: right;
+    width:50%;
+    height:30%;
+    
+    border-radius: 25% 25%;
+    
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food Sources+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++World Food Problem+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Index_2 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: blue;
+    
+
+}
+.Index_2 h1 {
+    font-weight: lighter;
+    border: solid 2px rgb(0, 234, 255);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.Index_2 h1:hover {
+    background-color: rgb(20, 200, 220);
+    color: rgb(255, 0, 0);
+}
+.Innn {
+    margin:5%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+
+.Index_2 ol {
+    margin-left:20px;
+    padding-left: 10%;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.Index_2 ol h3 {
+    font-size: 30px;
+    color: rgb(65, 65, 181);
+}
+
+
+.Index_2 ol h3:hover{
+    color:rgb(0, 255, 136);
+    text-decoration: solid underline 2px rgb(0, 0, 0);
+}
+.Innn img{
+
+
+    float: right;
+    width:50%;
+    height:30%;
+    
+    border-radius: 25% 25%;
+    
+
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++World Food Problem+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Index_3 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: blue;
+    
+
+}
+.Index_3 h1 {
+    font-weight: lighter;
+    border: solid 2px rgb(255, 0, 225);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.Index_3 h1:hover {
+    background-color: rgb(207, 20, 220);
+    color: rgb(246, 255, 0);
+}
+.Innnn {
+    margin:5%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+
+.Index_3 ol {
+    margin-left:20px;
+    padding-left: 10%;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.Index_3 ol h3 {
+    font-size: 30px;
+    color: rgb(122, 122, 227);
+}
+
+
+.Index_3 ol h3:hover{
+    color:rgb(255, 132, 0);
+    text-decoration: solid underline 2px rgb(0, 0, 0);
+}
+.Innnn img{
+
+
+    float: right;
+    width:50%;
+    height:30%;
+    
+    border-radius: 25% 25%;
+    
+
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++World Food Problem+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++OverGrazing+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+.Index_4 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: blue;
+    
+    
+
+}
+.Index_4 h1 {
+    font-weight: lighter;
+    border: solid 2px rgb(162, 255, 0);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.Index_4 h1:hover {
+    background-color: rgb(210, 220, 20);
+    color: rgb(69, 85, 17);
+}
+.Innnnn {
+    margin:5%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+}
+
+.Index_4 ol {
+    margin-left:20px;
+    padding-left: 10%;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.Index_4 ol h3 {
+    font-size: 30px;
+    color: rgb(122, 122, 227);
+}
+
+
+.Index_4 ol h3:hover{
+    color:rgb(255, 102, 0);
+    text-decoration: solid underline 2px rgb(0, 0, 0);
+}
+.Innnnn img{
+
+
+    float: right;
+    width:50%;
+    height:30%;
+    
+    border-radius: 25% 25%;
+    
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++OverGrazing+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Distriv=bution+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+.Index_5 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: blue;
+    
+    
+
+}
+.Index_5 h1 {
+    font-weight: lighter;
+    border: solid 2px rgb(255, 0, 140);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.Index_5 h1:hover {
+    background-color: rgb(220, 20, 200);
+    color: rgb(85, 60, 17);
+}
+
+
+
+
+.iii {
+    font-size: 25px;
+}
+
+.Index_5  h4{
+    color:black;
+    transition: color 0.2s, text-decoration 0.2s;
+    cursor: pointer;
+    text-align: left;
+}
+
+.Index_5 h4:hover {
+    color:rgb(0, 98, 255);
+    text-decoration: underline solid rgba(232, 77, 0, 0.923) 3px;
+}
+
+.Index_5 ol {
+    display: block;
+    list-style-type: decimal ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+
+}
+
+.Index_5 ol li {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Distriv=bution+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food PRocresses+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Indexx_6 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: blue;
+    
+    
+
+}
+.Indexx_6 h1 {
+    font-weight: lighter;
+    border: solid 2px rgb(0, 255, 153);
+    border-radius: 20%;
+    text-align: center;
+    margin:10%;
+}
+
+.Indexx_6 h1:hover {
+    background-color: rgb(20, 220, 93);
+    color: rgb(85, 17, 17);
+}
+
+
+
+
+.iiii {
+    font-size: 25px;
+}
+
+.Indexx_6 ol li h4{
+    color:black;
+    transition: color 0.2s, text-decoration 0.2s;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom:10px;
+    margin-left:5px;
+
+}
+
+.Indexx_6 ol li  h4:hover {
+    color:rgb(0, 98, 255);
+    text-decoration: underline solid rgba(232, 77, 0, 0.923) 3px;
+}
+
+.Indexx_6 ol {
+    display: block;
+    list-style-type: decimal ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    color:black;
+
+}
+
+.Indexx_6 ol li {
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+ 
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food PRocresses+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food and Nutriants+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Index_7 {
+    margin:10%;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: rgb(75, 112, 76);
+    
+    
+
+}
+.Index_7 h1 {
+    font-weight: lighter;
+    border: solid 2px rgb(221, 255, 0);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.Index_7 h1:hover {
+    background-color: rgb(218, 231, 125);
+    color: rgb(255, 53, 73);
+}
+
+
+
+
+.Innnnnb p {
+    font-size: 20px;
+    text-align: center;
+    margin:10%;
+    color:black;
+
+}
+
+.Index_7  h4{
+    color:black;
+    transition: color 0.2s, text-decoration 0.2s;
+    cursor: pointer;
+    text-align: left;
+}
+
+.Innnnnb img {
+
+    float: right;
+    shape-outside: circle();
+    border-radius: 35%;
+    width:50%;
+    height:50%;
+
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food and Nutriants+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Waste MAnagenment+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Index_8 {
+
+    margin:50px;
+    padding-bottom:10px;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: rgb(46, 174, 51);
+
+}
+.Index_8 h1 {
+    text-align:center;
+    border: solid 2px rgb(55, 0, 255);
+    border-radius: 20%;
+}
+
+.Index_8 h1:hover {
+    background-color: blue;
+    color:gold;
+}
+
+.Index_8 p {
+    font-size: 25px;
+    margin:10px;
+    padding:10px;
+    color:black;
+    text-align: left;
+    padding-right: 5px;
+}
+
+.Index_8 ol {
+    list-style-type: decimal;
+    color:sienna;
+    font-size:45px;
+
+
+    
+    padding:3%;
+}
+
+.Innnnnbb img{
+
+    float: right;
+    shape-outside: circle();
+    border-radius: 100%;
+    width:25%;
+    height:25%;
+    padding-top: 30px;
+    margin-left:50px;
+
+}
+
+.Index_8 ol img {
+
+    float: right;
+    shape-outside: circle();
+    border-radius: 50% 50%;
+    width:35%;
+    height:35%;
+    
+    padding-left:10%;
+
+}
+.Index_8 ol li {
+    font-size:25px;
+    padding:20px;
+    color:rgb(0, 0, 0)
+}
+
+.Index_8 ol li ul {
+    font-size: 20px;
+    padding-bottom: 5px;
+    color:red
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Waste MAnagenment+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++Food  Policy+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Index_9 {
+
+    margin:50px;
+    padding-bottom:10px;
+    font-weight: lighter;
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 5%;
+    color: rgb(46, 174, 51);
+
+}
+.Index_9 h1 {
+    text-align:center;
+    border: solid 2px rgb(172, 135, 44);
+    border-radius: 20%;
+}
+
+.Index_9 h1:hover {
+    background-color: rgb(158, 84, 27);
+    color:rgb(255, 255, 255);
+}
+
+.Index_9 p {
+    font-size: 25px;
+    margin:10px;
+    padding:10px;
+    color:black;
+    text-align: left;
+    padding-right: 5px;
+}
+
+.Index_9 ol {
+    list-style-type: decimal;
+    color:sienna;
+    font-size:45px;
+
+
+    
+    padding:3%;
+}
+
+.Innnnnbbb img{
+
+    float: right;
+    shape-outside: circle();
+    border-radius: 100%;
+    width:25%;
+    height:25%;
+    padding-top: 30px;
+    margin-left:50px;
+
+}
+
+.Index_9 ol img {
+
+    float: right;
+    shape-outside: circle();
+    border-radius: 50% 50%;
+    width:35%;
+    height:35%;
+    
+    padding-left:10%;
+
+}
+.Index_9 ol li {
+    font-size:25px;
+    padding:20px;
+    color:rgb(0, 0, 0)
+}
+
+.Index_9 ol li ul {
+    font-size: 20px;
+    padding-bottom: 5px;
+    color:red
+}
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Livestocks++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.LLLLL {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(livvve.jpg);
+    background-size: cover;
+    
+}
+
+.LLLLL h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(40, 105, 20,0.4),rgba(231, 238, 45, 0.75));
+
+}
+
+.LLLLL h1:hover {
+    color:rgb(77, 208, 210);
+    background-image: linear-gradient(rgba(228, 106, 13, 0.77),rgba(4, 186, 246, 0.65));
+
+}
+
+.FFFFFF p{
+    font-size: larger;
+    margin:10%;
+    text-align: center;
+}
+
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Livestocks++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.LLLLLL {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(cr.jpg);
+    background-size: cover;
+    
+}
+
+.LLLLLL h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(228, 237, 62, 0.77),rgba(23, 222, 36, 0.75));
+
+}
+
+.LLLLLL h1:hover {
+    color:rgb(0, 64, 255);
+    background-image: linear-gradient(rgba(192, 73, 30, 0.77),rgba(222, 215, 23, 0.75));
+
+}
+
+.FFFFFFG p{
+    font-size: larger;
+    margin:10%;
+    text-align: center;
+}
+
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Livestocks++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.LLLLLLL {
+    width:100%;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+    justify-content: flex-start;
+    background-image: url(ffish.jpg);
+    background-size: cover;
+    
+}
+
+.LLLLLLL h1{
+    text-align: left;
+    font-size:75px;
+    color:rgb(63, 88, 85);
+    margin-top: 60px;
+    padding-left: 13%;
+    padding-right: 13%;
+    cursor:pointer;
+    padding-bottom: 1%;
+    padding-top:1%;
+    background-image: linear-gradient(rgba(184, 214, 14, 0.5),rgba(4, 246, 20, 0.75));
+
+}
+
+.LLLLLLL h1:hover {
+    color:rgb(77, 208, 210);
+    background-image: linear-gradient(rgba(13, 171, 228, 0.77),rgba(56, 4, 246, 0.65));
+
+}
+
+.FFFFFFGK p{
+    font-size: larger;
+    margin:10%;
+    text-align: center;
+}
+
+
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Livestocks++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Owner (just for formalities the whole code is written by ayush only)++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+.o_box {
+    
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.o_inboxx {
+    flex-basis:31%;
+    background-color: rgb(174, 207, 187);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+    
+}
+
+.o_box h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.o_box p {
+    padding: 0%;
+    text-align: center;
+    margin: 0%;
+}
+
+.o_inboxx:hover {
+    box-shadow: 0 0 20px 20px rgba(51, 42, 39, 0.54);
+}
+
+
+
+.iimmmgggg {
+    width:60%;
+    height:70%;
+    margin-bottom:20px;
+    margin-left:85px
+    
+    
+    
+}
+
+.iimmmggggg {
+    width:50%;
+    height:70%;
+    margin-left:90px
+}
